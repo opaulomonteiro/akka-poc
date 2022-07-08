@@ -11,11 +11,12 @@ repositories {
 dependencies {
   implementation 'com.typesafe.akka:akka-actor-typed_2.13:2.6.19'
   implementation 'ch.qos.logback:logback-classic:1.2.3'
+
   testImplementation 'com.typesafe.akka:akka-actor-testkit-typed_2.13:2.6.19'
   testImplementation 'junit:junit:4.13.1'
 }
 
-mainClassName = "br.com.poc.AkkaQuickstart"
+mainClassName = "br.com.poc.Main"
 
 run {
   standardInput = System.in
